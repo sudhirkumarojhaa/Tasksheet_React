@@ -43,7 +43,7 @@ export default class TaskSheet extends React.Component{
         return <div className="main">
           <div className="header">
             <input className="text" value={data}
-            placeholder="Enter some tasks here"
+            placeholder="Enter some tasks here ..."
             onChange={this.update}/>
             <button className="btn" onClick={this.add}>Add Todo</button>
             </div>
